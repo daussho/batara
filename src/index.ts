@@ -15,8 +15,6 @@ class useStateX {
     this.history.push(newState);
     this.value = newState;
     this.domUpdater(newState);
-
-    console.log(newState);
   }
 
   domUpdater(newVal: any) {

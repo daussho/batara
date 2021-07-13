@@ -10,7 +10,6 @@ var useStateX = /** @class */ (function () {
         this.history.push(newState);
         this.value = newState;
         this.domUpdater(newState);
-        console.log(newState);
     };
     useStateX.prototype.domUpdater = function (newVal) {
         var el = document.querySelectorAll("[d-state=\"" + this.name + "\"]");
